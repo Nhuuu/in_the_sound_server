@@ -1,4 +1,4 @@
-/ Mongoose require and connect
+// Mongoose require and connect
 const mongoose = require('mongoose');
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/sound',
